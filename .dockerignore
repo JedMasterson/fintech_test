@@ -1,0 +1,4 @@
+fintech_venv
+.gitignore
+db/database
+docker-compose.yml

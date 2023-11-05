@@ -1,5 +1,5 @@
 # created by virtualenv automatically
 fintech_venv
-database
+db/database
 database.db
 sample.py
