@@ -41,7 +41,7 @@ async def dowload_file(url: str, filepath: str):
                         file.write(chunk)
         file.close()
     extractbz2(temp_bz2, filepath)
-    database_from_csv(os.path.join(filepath, "list_of_expired_passports.csv"), "./database")
+    database_from_csv(os.path.join(filepath, "list_of_expired_passports.csv"), "/usr/db/database")
 
 
 async def main():

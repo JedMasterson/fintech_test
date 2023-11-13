@@ -10,4 +10,4 @@ RUN set -eux \
     && pip install --upgrade pip setuptools wheel \
     && pip install -r /usr/requirements.txt \
     && rm -rf /root/.cache/pip
-COPY ./src /usr/
+COPY . /usr/
